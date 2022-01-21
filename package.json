@@ -1,11 +1,14 @@
 {
-  "name": "mathjax-vue",
-  "version": "0.0.2",
+  "name": "mathjax-vue-configs",
+  "version": "0.0.3",
   "description": "Vue components for MathJax",
   "main": "dist/math.umd.js",
   "module": "dist/math.esm.js",
   "unpkg": "dist/math.min.js",
-  "repository": "https://github.com/hansonGong/mathjax-vue.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre-triestocode/mathjax-vue"
+  },
   "files": [
     "dist/*"
   ],
@@ -38,5 +41,9 @@
     "mathjax3",
     "latex",
     "vue"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/andre-triestocode/mathjax-vue/issues"
+  },
+  "homepage": "https://github.com/andre-triestocode/mathjax-vue#readme"
 }

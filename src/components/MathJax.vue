@@ -27,10 +27,8 @@ export default {
   },
   methods: {
     renderMathJax() {
-      this.$el.innerText = this.block
-        ? `$$ ${this.latex} $$`
-        : `$ ${this.latex} $`
-      renderByMathjax(this.$el)
+      this.$el.innerText = this.$latex;
+      renderByMathjax(this.$el);
     },
   },
 }
