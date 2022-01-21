@@ -1,3 +1,7 @@
+This package was forked from https://www.npmjs.com/package/mathjax-vue3
+
+It has more freedom regarding inline text with inline equations.
+
 # mathjax-vue
 Vue components for MathJax
 
