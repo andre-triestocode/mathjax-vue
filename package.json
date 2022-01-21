@@ -1,6 +1,6 @@
 {
   "name": "mathjax-vue-configs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue components for MathJax",
   "main": "dist/math.umd.js",
   "module": "dist/math.esm.js",
